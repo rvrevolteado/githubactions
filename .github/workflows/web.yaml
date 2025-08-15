@@ -15,4 +15,4 @@ jobs:
 
       - name: Serve a test page
         run: |
-          echo "Hello Robert from GitHub Actions on CentOS 9!" | sudo tee /var/www/html/index.html
+          echo "Hello from GitHub Actions on CentOS 9!" | sudo tee /var/www/html/index.html
